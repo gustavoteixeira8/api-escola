@@ -30,7 +30,7 @@ class TokenController {
         expiresIn: process.env.TOKEN_EXPIRATION,
       });
 
-      return res.status(200).json(new (0, _AppSuccess2.default)({ token, user: { id, name, email } }, 200, 'Success'));
+      return res.status(200).json(new (0, _AppSuccess2.default)({ token }, 200, 'Success'));
     } catch (e) {
       return res.status(e.httpCode || 500).json(e);
     }
