@@ -4,3 +4,4 @@
 - [x] Fazer CRUD de Alunos
 - [x] Fazer CREATE de Avatar dos Alunos
 - [x] Revisar CRUD de usuários, alunos e avatar dos alunos
+
